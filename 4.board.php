@@ -20,7 +20,7 @@
             </tr>
         </thead>
         <?php
-        // board테이블에서 idx를 기준으로 내림차순해서 10개까지 표시
+        
           $sql = query("select * from board order by idx desc limit 0,10"); 
           ?>
           <tbody></tbody>
